@@ -1,4 +1,5 @@
-const dotenv = require("dotenv").config();  
+const dotenv = require("dotenv");
+dotenv.config();
 const express = require("express");
 const connectsDB = require("./config/connectsDB");
 const Task = require("./model/taskModel");
